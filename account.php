@@ -19,8 +19,8 @@ foreach ($users as $user) {
     <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="reg-page">
-    <form action="edit.php" method="post">'.'<br/>'.'Ваше имя:' .'<br/>'. '<input name="user_name" type="text" value="' .  $user['user_name'] . '">' . '<br/>'.'<br/>'. '<label>Ваш email:</label>' .'<br/>'. '<input type="text" value="' .  $user['email'] . '">' . '<br/>'.'<br/>'. 'Ваш телефон:' . '<br/>'. '<input type="text" value="' . $user['phone'].  '">' . '<br/>' . '<div>Изменить пароль</div>'. '<br/>'.'Новый пароль:' . '<br/>'. '<input type="password" value="' .  $user['password'] . '">' .'<br/>'.'Повторить пароль:'  . '<br/>'. '<input type="password" value="' .  $user['password'] . '">' . '</br>'.
-    '<input style="margin-top: 30px;" name= "submit_edit" id="submit" type="submit" value="Редактировать запись">' . '</form><a href="index.php">Вернуться на главную страницу</a>
+    <form action="/lesson12/php-pw2/edit.php" method="post">'.'<br/>'.'Ваше имя:' .'<br/>'. '<input name="user_name" type="text" value="' .  $user['user_name'] . '">' . '<br/>'.'<br/>'. '<label>Ваш email:</label>' .'<br/>'. '<input type="text" value="' .  $user['email'] . '">' . '<br/>'.'<br/>'. 'Ваш телефон:' . '<br/>'. '<input type="text" value="' . $user['phone'].  '">' . '<br/>' . '<div>Изменить пароль</div>'. '<br/>'.'Новый пароль:' . '<br/>'. '<input type="password"  name="password" value="' .  $user['password'] . '">' .'<br/>'.'Повторить пароль:'  . '<br/>'. '<input type="password" value="' .  $user['password'] . '">' . '</br>'.
+    '<input style="margin-top: 30px;" name= "update" id="submit" type="submit" value="Редактировать запись">' . '</form><a href="index.php">Вернуться на главную страницу</a>
     </body>
     </html>
     '
