@@ -1,0 +1,58 @@
+.main-page {
+	background: rgba(253, 181, 208, 0.75);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.reg-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h2 {
+	color: #527648;
+	font-family: 'Pangolin', cursive;
+	font-size: 48px;
+	text-align: center;
+	
+	letter-spacing: 2;
+	margin-bottom: 10px;
+}
+.text {
+	font-size: 18px;
+	color: #527648;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+input  {
+	width: 300px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #527648;
+	background: #fff;
+
+}
+input[type="text"],
+input[type="password"] {
+	padding: 0px 20px
+}
+label {
+	padding: 0px 20px;
+	padding-bottom: 20px;
+}
+
+input[type="submit"] {
+	background: #E34D1D;
+	border: none;
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+.reg {
+	color: #527648;
+}
